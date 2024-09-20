@@ -72,6 +72,10 @@ section.in-view {
 }
 
 /* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
 .button {
     background-color: #4CAF50;
     color: white;
@@ -80,6 +84,7 @@ section.in-view {
     border-radius: 5px;
     margin: 10px;
     cursor: pointer;
+    display: inline-block; /* Ensures buttons are side-by-side */
 }
 
 .button:hover {
@@ -89,6 +94,7 @@ section.in-view {
 #email {
     font-size: 1.2em;
     color: #333;
+    margin-top: 20px;
 }
 
 /* Responsive Design */
